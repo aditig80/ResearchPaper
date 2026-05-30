@@ -3,6 +3,9 @@ import pandas as pd
 import plotly.express as px
 import matplotlib.pyplot as plt
 from wordcloud import WordCloud
+from pathlib import Path
+import pandas as pd
+
 
 # --------------------------------------------------
 # PAGE CONFIG
@@ -20,11 +23,15 @@ st.title("📚 Research Paper Topic Clustering & Gap Analysis")
 # LOAD DATA
 # --------------------------------------------------
 
+
 @st.cache_data
 def load_data():
-    return pd.read_csv(
-        "../data/processed_papers.csv"
-    )
+    BASE_DIR = Path(__file__).resolve().parent
+    csv_path = BASE_DIR.parent / "data" / "processed_papers.csv"
+
+    st.write("Reading:", csv_path)
+
+    return pd.read_csv(csv_path)
 
 df = load_data()
 

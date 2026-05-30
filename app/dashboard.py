@@ -23,7 +23,7 @@ st.title("📚 Research Paper Topic Clustering & Gap Analysis")
 @st.cache_data
 def load_data():
     return pd.read_csv(
-        r"E:\Research Paper topic\data\processed_papers.csv"
+        "../data/processed_papers.csv"
     )
 
 df = load_data()

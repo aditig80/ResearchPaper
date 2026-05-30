@@ -1,0 +1,15 @@
+requests
+pandas
+numpy
+scikit-learn
+sentence-transformers
+umap-learn
+bertopic
+nltk
+spacy
+plotly
+wordcloud
+streamlit
+matplotlib
+seaborn
+tqdm

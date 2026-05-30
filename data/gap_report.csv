@@ -1,0 +1,9 @@
+topic,topic_name,paper_count,gap_score
+6,Dexterous Manipulation,14,0.0714
+7,Policy Optimization Methods,14,0.0714
+5,Multi-Agent Robotics,23,0.0435
+4,UAV / Drone Control,29,0.0345
+3,Humanoid Robot Locomotion,33,0.0303
+2,Autonomous Driving,34,0.0294
+1,Vision-Language-Action Models,36,0.0278
+0,Offline Reinforcement Learning,37,0.027
